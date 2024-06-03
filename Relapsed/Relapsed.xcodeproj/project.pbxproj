@@ -6,18 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		699BF1182BFEB00900626E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699BF1172BFEB00900626E3C /* Assets.xcassets */; };
-		699BF11B2BFEB00900626E3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699BF11A2BFEB00900626E3C /* Preview Assets.xcassets */; };
-		699BF1252BFEB00900626E3C /* ElapsedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BF1242BFEB00900626E3C /* ElapsedTests.swift */; };
-		699BF12F2BFEB00900626E3C /* ElapsedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BF12E2BFEB00900626E3C /* ElapsedUITests.swift */; };
-		699BF1312BFEB00900626E3C /* ElapsedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BF1302BFEB00900626E3C /* ElapsedUITestsLaunchTests.swift */; };
-		699BF13E2BFEB01600626E3C /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BF13D2BFEB01600626E3C /* TimerView.swift */; };
-		699BF1462BFEB22D00626E3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BF1452BFEB22D00626E3C /* ContentView.swift */; };
-		699BF1482BFEB5D300626E3C /* ElapsedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BF1472BFEB5D300626E3C /* ElapsedApp.swift */; };
-		699BF14A2BFEB87500626E3C /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699BF1492BFEB87500626E3C /* TimerManager.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		699BF1212BFEB00900626E3C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -36,18 +24,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69435CF52C0DC38600BC4214 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69435CF72C0DC38600BC4214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69435CF82C0DC38600BC4214 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		69435CF92C0DC38600BC4214 /* ElapsedApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElapsedApp.swift; sourceTree = "<group>"; };
+		69435CFA2C0DC38600BC4214 /* HapticSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticSlider.swift; sourceTree = "<group>"; };
+		69435CFB2C0DC38600BC4214 /* TimerActivityAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerActivityAttributes.swift; sourceTree = "<group>"; };
+		69435CFC2C0DC38600BC4214 /* TimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		69435CFD2C0DC38600BC4214 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		699BF1102BFEB00800626E3C /* Relapsed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relapsed.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		699BF1172BFEB00900626E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		699BF11A2BFEB00900626E3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		699BF1202BFEB00900626E3C /* RelapsedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelapsedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		699BF1242BFEB00900626E3C /* ElapsedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTests.swift; sourceTree = "<group>"; };
 		699BF12A2BFEB00900626E3C /* RelapsedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelapsedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		699BF12E2BFEB00900626E3C /* ElapsedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedUITests.swift; sourceTree = "<group>"; };
-		699BF1302BFEB00900626E3C /* ElapsedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		699BF13D2BFEB01600626E3C /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
-		699BF1452BFEB22D00626E3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		699BF1472BFEB5D300626E3C /* ElapsedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedApp.swift; sourceTree = "<group>"; };
-		699BF1492BFEB87500626E3C /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +62,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69435CF62C0DC38600BC4214 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				69435CF52C0DC38600BC4214 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69435CFE2C0DC38600BC4214 /* Relapsed */ = {
+			isa = PBXGroup;
+			children = (
+				69435CF62C0DC38600BC4214 /* Preview Content */,
+				69435CF72C0DC38600BC4214 /* Assets.xcassets */,
+				69435CF82C0DC38600BC4214 /* ContentView.swift */,
+				69435CF92C0DC38600BC4214 /* ElapsedApp.swift */,
+				69435CFA2C0DC38600BC4214 /* HapticSlider.swift */,
+				69435CFB2C0DC38600BC4214 /* TimerActivityAttributes.swift */,
+				69435CFC2C0DC38600BC4214 /* TimerManager.swift */,
+				69435CFD2C0DC38600BC4214 /* TimerView.swift */,
+			);
+			path = Relapsed;
+			sourceTree = "<group>";
+		};
 		699BF1072BFEB00800626E3C = {
 			isa = PBXGroup;
 			children = (
-				699BF1122BFEB00800626E3C /* Elapsed */,
-				699BF1232BFEB00900626E3C /* ElapsedTests */,
-				699BF12D2BFEB00900626E3C /* ElapsedUITests */,
+				69435CFE2C0DC38600BC4214 /* Relapsed */,
 				699BF1112BFEB00800626E3C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,44 +101,6 @@
 				699BF12A2BFEB00900626E3C /* RelapsedUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		699BF1122BFEB00800626E3C /* Elapsed */ = {
-			isa = PBXGroup;
-			children = (
-				699BF1472BFEB5D300626E3C /* ElapsedApp.swift */,
-				699BF13D2BFEB01600626E3C /* TimerView.swift */,
-				699BF1492BFEB87500626E3C /* TimerManager.swift */,
-				699BF1452BFEB22D00626E3C /* ContentView.swift */,
-				699BF1172BFEB00900626E3C /* Assets.xcassets */,
-				699BF1192BFEB00900626E3C /* Preview Content */,
-			);
-			path = Elapsed;
-			sourceTree = "<group>";
-		};
-		699BF1192BFEB00900626E3C /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				699BF11A2BFEB00900626E3C /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		699BF1232BFEB00900626E3C /* ElapsedTests */ = {
-			isa = PBXGroup;
-			children = (
-				699BF1242BFEB00900626E3C /* ElapsedTests.swift */,
-			);
-			path = ElapsedTests;
-			sourceTree = "<group>";
-		};
-		699BF12D2BFEB00900626E3C /* ElapsedUITests */ = {
-			isa = PBXGroup;
-			children = (
-				699BF12E2BFEB00900626E3C /* ElapsedUITests.swift */,
-				699BF1302BFEB00900626E3C /* ElapsedUITestsLaunchTests.swift */,
-			);
-			path = ElapsedUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,8 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699BF11B2BFEB00900626E3C /* Preview Assets.xcassets in Resources */,
-				699BF1182BFEB00900626E3C /* Assets.xcassets in Resources */,
+				69435CFF2C0DC38600BC4214 /* Preview Assets.xcassets in Resources */,
+				69435D002C0DC38600BC4214 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +233,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699BF13E2BFEB01600626E3C /* TimerView.swift in Sources */,
-				699BF14A2BFEB87500626E3C /* TimerManager.swift in Sources */,
-				699BF1462BFEB22D00626E3C /* ContentView.swift in Sources */,
-				699BF1482BFEB5D300626E3C /* ElapsedApp.swift in Sources */,
+				69435D062C0DC38600BC4214 /* TimerView.swift in Sources */,
+				69435D022C0DC38600BC4214 /* ElapsedApp.swift in Sources */,
+				69435D032C0DC38600BC4214 /* HapticSlider.swift in Sources */,
+				69435D012C0DC38600BC4214 /* ContentView.swift in Sources */,
+				69435D042C0DC38600BC4214 /* TimerActivityAttributes.swift in Sources */,
+				69435D052C0DC38600BC4214 /* TimerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699BF1252BFEB00900626E3C /* ElapsedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699BF12F2BFEB00900626E3C /* ElapsedUITests.swift in Sources */,
-				699BF1312BFEB00900626E3C /* ElapsedUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
